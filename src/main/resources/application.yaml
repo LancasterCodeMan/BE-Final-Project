@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: product_catalog
+    password: product_catalog
+    url: jdbc:mysql://DC1:3306/product_catalog
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
